@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Twitter</title>
+</head>
+    <body>
+
+
+        <header class="header flex justify-content-between align-items-center">
+            <i class="fa-brands fa-twitter header__logo"></i>
+
+            <div class="header__central flex justify-content-between align-items-center">
+                <h1 class="header__central--title">Home</h1>
+                <i class="fa-regular fa-star header__central--star"></i>
+            </div>
+
+            <div class="header__input">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="header__input--search" placeholder="Search Twitter"> 
+                </div>
+            </div>
+        </header>
+
+
+        <nav class="menu">
+
+            <ul class="menu__ul">
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-hashtag"></i>
+                    Explorar
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-bookmark"></i>
+                    Marcadores
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-bell"></i>
+                    Notificaciones
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-envelope"></i>
+                    Mensajes
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    Listas
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-user"></i>
+                    Usuarios
+                </li>
+                <li class="menu__ul--li">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Mas
+                </li>
+            </ul>
+            <button role="button" class="menu__btn btn__tweet">Tweet</button>
+
+        </nav>
+
+        <aside>
+
+        </aside>
+
+
+        <main class="main">
+
+            <section class="section__header">
+                <section class="main__section flex align-items-center">
+                    <div class="main__section--user">
+                        <img src="./img/perfil.jpg" alt="Imagen de usuario de Twitter">
+                    </div>
+                    <span class="main__section--span">¿Que estas pensando?</span>
+                </section>
+                
+                <section class="main__options flex justify-content-between align-items-end">
+                    <div class="main__options--icons flex justify-content-center align-items-center">
+                        <i class="fa-regular fa-image"></i>
+                        <i class="fa-regular fa-file-image"></i>
+                        <i class="fa-solid fa-square-poll-horizontal"></i>
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-calendar"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <button role="button" class="main__options--btn btn__tweet">Tweet</button>
+                </section>
+            </section>
+
+            <div class="main__vermas">
+                Ver 50 Tweets Nuevos
+            </div>
+
+
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil1.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">New Yort Times</h1>
+                        <p>Hace 20 Minutos</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post1.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+                    
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        1
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-retweet"></i>
+                        2
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: red;">
+                        <i class="fa-regular fa-heart"></i>
+                        4
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        0
+                    </div>
+                </footer>
+            </article>
+
+
+
+            <article class="post2">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil2.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">Hermoso Paisaje</h1>
+                        <p>Hace 1 Hora</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post2.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        10
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: aqua;">
+                        <i class="fa-solid fa-retweet"></i>
+                        15
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        1
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        2
+                    </div>
+                </footer>
+            </article>
+
+
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil3.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">Un viaje Nuevo</h1>
+                        <p>Hace 50 Minutos</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post3.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        10
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: aqua;">
+                        <i class="fa-solid fa-retweet"></i>
+                        5
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: red;">
+                        <i class="fa-regular fa-heart"></i>
+                        10
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        2
+                    </div>
+                </footer>
+            </article>
+
+
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil4.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">Paisaje minimalista</h1>
+                        <p>Hace 10 Minutos</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post4.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        20
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: aqua;">
+                        <i class="fa-solid fa-retweet"></i>
+                        4
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        1
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        1
+                    </div>
+                </footer>
+            </article>
+
+
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil5.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">Reserva de Huanuco</h1>
+                        <p>Hace 20 Minutos</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post5.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        3
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-retweet"></i>
+                        7
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: red;">
+                        <i class="fa-regular fa-heart"></i>
+                        4
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        8
+                    </div>
+                </footer>
+            </article>
+
+
+
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil6.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">Atardecer en Brasil</h1>
+                        <p>Hace 20 Minutos</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post6.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        4
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: aqua;">
+                        <i class="fa-solid fa-retweet"></i>
+                        1
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        2
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        10
+                    </div>
+                </footer>
+            </article>
+            
+            
+            
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil7.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">✨ Wow Que paisaje ✨</h1>
+                        <p>Hace 2 Horas</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+
+                <figure class="cuerpo">
+                    <img src="./img/post/post7.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        10
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-retweet"></i>
+                        15
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        1
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        2
+                    </div>
+                </footer>
+            </article>
+            
+
+
+            <article class="post1">
+                <header class="post1__header">
+                    <div class="post1__header--head flex align-items-center">
+                        <div class="post1__header--user perfil">
+                            <img src="./img/perfiles/perfil8.jpg" alt="Imagen de usuario de Twitter">
+                        </div>
+                        
+                        <h1 class="post1__header--h1">Hermosa Ciudad Tecnologica</h1>
+                        <p>Hace 20 Minutos</p>
+                    </div>
+                    <p class="post1__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis iusto itaque at, illo id maiores ullam magnam? Nulla ipsa nam officia, nobis non repellendus magni vitae excepturi sit deserunt.
+                    </p>
+                </header>
+    
+                <figure class="cuerpo">
+                    <img src="./img/post/post8.png" alt="Imagen de post 1">
+                    <figcaption class="cuerpo__caption">
+                        <h2>Source.com</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem officia deserunt explicabo dignissimos odit dolores cum voluptas sed aperiam. Perferendis.
+                    </figcaption>
+                </figure>
+    
+                <footer class="post1__footer flex justify-content-around">
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-regular fa-comment"></i>
+                        14
+                    </div>
+                    
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: aqua;">
+                        <i class="fa-solid fa-retweet"></i>
+                        10
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center" style="color: red;">
+                        <i class="fa-regular fa-heart"></i>
+                        4
+                    </div>
+
+                    <div class="post1__footer--icon flex flex-direction-column align-items-center">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        3
+                    </div>
+                </footer>
+            </article>
+        </main>
+
+
+        <aside class="aside">
+
+            <div class="aside__tendencias">
+                <h1 class="aside__h1">Tendencias para ti</h1>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Sport mundial</h2>
+                        <p>FIFA</p>
+                        <span>71.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>MundoTrading</h2>
+                        <p>Forex</p>
+                        <span>71.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Marketing</h2>
+                        <p>Laptop</p>
+                        <span>71.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Nuevo iphone</h2>
+                        <p>Iphone</p>
+                        <span>713.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Mundoweb</h2>
+                        <p>Desarrolllo web</p>
+                        <span>871.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Criptomonedas</h2>
+                        <p>Bitcoin</p>
+                        <span>719.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Criptomonedas</h2>
+                        <p>Trading</p>
+                        <span>741.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Deportes</h2>
+                        <p>Mundial</p>
+                        <span>710.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+                <div class="aside__tendencias--content flex justify-content-between align-items-center">
+                    <div class="aside__content--tendencia">
+                        <h2>Covid</h2>
+                        <p>Coronavirus</p>
+                        <span>101.4K Tweets</span>
+                    </div>
+
+                    <div class="aside__content--option">
+                        <span>...</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="aside__seguir">
+
+            </div>
+
+        </aside>
+
+        <footer>
+
+        </footer>
+
+
+
+
+
+
+
+    </body>
+</html>
